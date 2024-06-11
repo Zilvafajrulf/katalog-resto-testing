@@ -99,7 +99,7 @@ module.exports = {
       patterns: [
         {
           from: path.resolve(__dirname, 'src/public/'),
-          to: path.resolve(__dirname, 'dist/'),
+          to: path.resolve(__dirname, 'public/'),
           globOptions: {
             ignore: ['**/images/**'],
           },
